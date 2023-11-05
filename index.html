@@ -1,34 +1,48 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
-  $(document).ready(function() {
-	  $("#all").click(function () {
-	    $("img").show();
+  $("#A").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#a").fadeIn('slow');
 });
-    $("#MM").click(function () {
-	    $("img").show();
-	    $("img").hide();
-  $("#mm").fadeIn('slow');
+  $("#B").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#b").fadeIn('slow');
 });
-
-$("#GG").click(function () {
-	$("img").show();
-	$("img").hide();
-  $("#gg").fadeIn('slow');
+  $("#C").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#c").fadeIn('slow');
 });
-
-$("#Tom").click(function () {
-	$("img").show();
-	$("img").hide();
-  $("#tom").fadeIn('slow');
+  $("#D").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#d").fadeIn('slow');
 });
-
-$("#BB").click(function () {
-	$("img").show();
-	$("img").hide();
-  $("#bb").fadeIn('slow');
+  $("#E").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#e").fadeIn('slow');
+});
+  $("#F").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#f").fadeIn('slow');
+});
+  $("#G").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#g").fadeIn('slow');
+});
+  $("#H").click(function () {
+             $("img").show();
+             $("img").hide();
+  $("#h").fadeIn('slow');
 });
   });
 </script>
+
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
@@ -39,24 +53,30 @@ $("#BB").click(function () {
   h2 {
   font-size: 30px;
   }
-  .blue-text {
-    color: #1e5792a1;
+  .orange-text {
+    color: #F75000;
   }
-  .blue1-text {
-    color: #cee6f6;
+  .lightorange-text {
+    color: #FFAF60;
+  }
+  .anotherorange-text {
+    color: #D94600;
+  }
+  .brown-text {
+    color: #A23400;
   }
   .white-text {
     color: white;
   }
   .background{
-    background-color: #9ca8b8;
+    background-color: #FFCBB3;
   }
 
-  .smaller-image {
-    width: 200px;
+  .square-image {
+    width: 300px;
     height: 300px;
   }
-  .bigger-image {
+  .rectangle-image {
     width: 400px;
     height: 300px;
   }
@@ -64,32 +84,47 @@ $("#BB").click(function () {
     padding: 20px;
   }
 </style>
-	<title>Tanya-Lai's personal page</title>
+	<title>Clara's Blog</title>
 	<body class="background">
-		<h1 class="white-text text-center">Hi! 歡迎來到我的網頁</h1>
-		<h2 class="blue-text text-center">我是賴可唐</h2>
-				<p class="blue-text text-center">       一個懶癌末期兼手機重度成癮症患者</p>
-		<p class="blue1-text text-center">這是我們家的貓貓們</p>
+		<h1 class="white-text text-center">你誤闖了一個狐狸小窩！</h1>
+		<h2 class="brown-text text-center">這些小狐在你的視窗裡發現了一個漏洞，所以趁機鑽過來了！</h2>
+				<p class="orange-text text-center">       今天過得如何？如果心情不好，就讓可愛狐狸來療癒一下你的心靈吧～</p>
+		<p class="lightorange-text text-center">這裡有各種狐狐，點擊確認牠們的可愛模樣！</p>
 	<div class="row">
 			<div class="col-md-2">
-		<button class="blue-text btn btn-block" id="all">All</button>
+		<button class="anotherorange-text btn btn-block" id="A">Firefox</button>
 				</div>
 			<div class="col-md-2">
-		<button class="blue-text btn btn-block" id="MM">麵麵</button>
+		<button class="anotherorange-text btn btn-block" id="B">問號狐狐</button>
 				</div>
 			<div class="col-md-2">
-		<button class="blue-text btn btn-block" id="GG">關關</button>
+		<button class="anotherorange-text btn btn-block" id="C">驕傲狐狐</button>
 				</div>
 			<div class="col-md-2">
-		<button class="blue-text btn btn-block" id="Tom">湯姆</button>
-				</div>
-			<div class="col-md-2">
-		<button class="blue-text btn btn-block" id="BB">貝貝</button>
+		<button class="anotherorange-text btn btn-block" id="D">調皮小狐</button>
 				</div>
 	</div>
-    		<a href="#"><img class="smaller-image" id="mm" src="https://github.com/clara0126/clara0126.github.io/blob/fe126209a5d3cc4320cea0c06ce4acc25572803d/%E6%B9%AF%E5%A7%86.jpeg" alt="麵麵"></a>
-		<a href="#"><img class="smaller-image" id="gg" src="https://github.com/clara0126/clara0126.github.io/blob/fe126209a5d3cc4320cea0c06ce4acc25572803d/%E8%B2%9D%E8%B2%9D.jpeg" alt="關關"></a>
-		<a href="#"><img class="bigger-image" id="tom" src="https://github.com/clara0126/clara0126.github.io/blob/fe126209a5d3cc4320cea0c06ce4acc25572803d/%E9%97%9C%E9%97%9C.jpeg" alt="湯姆"></a>
-		<a href="#"><img class="bigger-image" id="bb" src="https://github.com/clara0126/clara0126.github.io/blob/fe126209a5d3cc4320cea0c06ce4acc25572803d/%E9%BA%B5%E9%BA%B5.jpg" alt="貝貝"></a>
+               <div class="row">
+			<div class="col-md-2">
+		<button class="anotherorange-text btn btn-block" id="E">北極小狐</button>
+				</div>
+			<div class="col-md-2">
+		<button class="anotherorange-text btn btn-block" id="F">英國小狐</button>
+				</div>
+			<div class="col-md-2">
+		<button class="anotherorange-text btn btn-block" id="G">一堆小狐</button>
+				</div>
+			<div class="col-md-2">
+		<button class="anotherorange-text btn btn-block" id="H">小狐耳</button>
+				</div>
+	</div>
+    		<a href="#"><img class="rectangle-image" id="a" src="" alt="Firefox"></a>
+		<a href="#"><img class="square-image" id="b" src="" alt="問號狐狐"></a>
+		<a href="#"><img class="square-image" id="c" src="" alt="驕傲狐狐"></a>
+		<a href="#"><img class="square-image" id="d" src="" alt="調皮小狐"></a>
+                              <a href="#"><img class="square-image" id="e" src="" alt="北極小狐"></a>
+		<a href="#"><img class="square-image" id="f" src="" alt="英國小狐"></a>
+		<a href="#"><img class="rectangle-image" id="g" src="" alt="一堆小狐"></a>
+		<a href="#"><img class="square-image" id="h" src="" alt="小狐耳"></a>
 	</body>
 </html>
